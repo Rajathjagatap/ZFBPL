@@ -1,0 +1,15 @@
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: red !important;
+}
+
+.nav-link{
+    font-weight: 800;
+}
+
+.nav-bg{
+    background-color: #e56500 !important;
+}
+
+.nav-txt{
+    color: #fff
+}

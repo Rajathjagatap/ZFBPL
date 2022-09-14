@@ -1,0 +1,21 @@
+.form-control {
+    width: 100%;
+    padding: 6px 12px;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #7a7c82;
+    background-color: #eee;
+    font-size: 16px;
+    margin: 15px;
+    margin-left: 0px;
+}
+
+.form-control:focus {
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    border: none;
+    outline: none;
+    background-color: #eee;
+}
