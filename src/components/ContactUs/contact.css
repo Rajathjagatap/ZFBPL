@@ -19,3 +19,24 @@
     outline: none;
     background-color: #eee;
 }
+
+.address{
+    padding-left:13vw;
+    padding-top:0vh;
+     float:right;
+     margin-top:5vh;
+}
+
+.email{
+    padding:20px;
+}
+
+@media (max-width:414px){
+    .address{
+        padding-left:7vw;
+        padding-right:5vw;
+    }
+    .email{
+        padding: 8vw;
+    }
+}

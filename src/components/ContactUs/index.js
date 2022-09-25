@@ -14,16 +14,18 @@ class ContactUs extends React.Component{
                     <p className='font_family_montserrat' style={{fontSize:'20px', marginTop:'5vh'}}>We Would Love to connect with People like you!</p>
                 </div>
                 <div className='col-md-12 row' style={{marginBottom:'5vh', marginTop:'5vh'}}>
-                    <div className='col-md-6' style={{paddingLeft:'13vw',paddingTop:'0vh', float:'right',marginTop:'5vh'}}>
+                    <div className='col-md-6 address'>
                         <p className='font_family_montserrat_bold'style={{fontSize:'20px'}}>Say Hello!</p>
                         
                         <div><i class="fa fa-mobile" aria-hidden="true"><span className="font_family_montserrat" style={{color:'black',fontSize:'16px',marginBottom:'10px',marginLeft:'10px'}}>+91 1234567890</span></i></div>
-                        <div style={{marginTop:'10px'}}><i class="fa fa-map-marker" aria-hidden="true"><span className="font_family_montserrat" style={{color:'black',fontSize:'16px',marginLeft:'10px'}}>18 HULLIKUNTE VILLAGE , KUMARSWAMY TEMPLE ROAD SANDUR – 583119 , BELLARY-DIST</span></i></div>
+                        <div style={{marginTop:'10px'}}><i class="fa fa-map-marker" aria-hidden="true"><span className="font_family_montserrat" style={{color:'black',fontSize:'16px',marginLeft:'10px'}}>
+                        Sy No: 121/B , Py No: 114 , 18 Hullikunte Villages , Nandhihalli Road , Sandur – 583119, Bellari-Dist , Karnataka .
+</span></i></div>
 
                         <div style={{marginTop:'10px'}}><i class="fa fa-envelope" style={{fontSize:'30px'}} aria-hidden="true"><span className="font_family_montserrat" style={{color:'black',fontSize:'16px',marginLeft:'10px'}}>zfbpl@gmail.com</span></i></div>
 
                     </div>
-                    <div className='col-md-6' style={{padding:'20px'}}>
+                    <div className='col-md-6 email'>
                                 <p className='font_family_montserrat_bold' style={{fontSize:'20px'}}> Write to Us!</p>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="usr" placeholder="NAME"/>

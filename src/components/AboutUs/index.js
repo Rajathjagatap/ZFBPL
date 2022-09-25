@@ -14,11 +14,13 @@ class AboutUs extends React.Component{
             <div>
                 <Header/>
                 {/* <div className='col-md-12'> */}
-                <div className='col-md-12 text-center' style={{paddingRight:'10vw',paddingLeft:'10vw',paddingTop:'2vh'}}>
+                <div className='col-md-12 text-center container-class'>
                     <h1 className="title-section"><span class="title-regular">ABOUT US</span></h1>
                     <hr className="title-underline-center"></hr>
-                    <p class="lead font_family_montserrat" style={{marginTop:'20px'}}>Zest Ferro Beneficiation Private Limited inception as a Beneficiation process plant Trading and Transportation . Zest has grown into one of the most consistent and prominent players in the Mining Industry. Over the last 12 years, the company has focused on business diversification and expansion which has significantly boosted its performance over the last 12 years .</p>
-                    <p class="lead font_family_montserrat">With its vast experience over the years and thorough knowledge of every operative nuance of the various industries, the Zest has not only managed to carve a niche for itself, but has also emerged as a brand name that is synonymous with quality in the sector . The Zest is managed by an inspiring leadership that is young, focused and is driven by the ambition to deliver the very best. The management team comprises a mixed pool of industry professionals from various fields such as Mining & Geology, Finance & Strategy , Mechanical and Human Resources.</p>
+                    <p class="lead font_family_montserrat" style={{marginTop:'20px'}}>Zest Ferro Beneficiation Private Limited started as a Beneficiation process plant comprising Trading and Transportation . The company has grown into one of the most consistent and prominent players in the Mining Industry. The company has focused on business diversification and expansion which has significantly boosted its performance over the last 12 years. The company has grown into stages with a lot of efforts, without losing confidence with an intention to start an industry for self employment and provide jobs to the deprived residents of the local area.
+                    We ensure sustainable growth of the company by following corporate governance and ecological balance.</p>
+                    <p class="lead font_family_montserrat">Our management team comprises a mixed pool of industry professionals from various fields such as Mining & Geology, Finance & Strategy , Mechanical and Human Resources. After making successful efforts to improve the standards of business activity and to avoid environmental pollution of fine particles of manganese and iron ores, we have erected a Beneficiation Plant in the year 2011-2012, to utilize the natural resources fully without causing environmental damage and supply to various steel industries at the most competitive rates.
+                    We put safety first in everything we do. We make safety a way of life, inside and outside the work place.</p>
                 
                 <div className="row col-md-12" style={{marginTop:'10vh'}}>
                     
@@ -52,7 +54,7 @@ class AboutUs extends React.Component{
                                 <i className="fa fa-trophy"></i>
                                 <label style={{fontWeight:800}}><strong style={{fontSize:'52px'}}>25</strong>
                                     <br/>Mining Leases</label>
-                                <p className='font_family_montserrat'>The benefication plant is in the core mining area, surrounded by 25 mining leases with in radius of 20 kms .</p>
+                                <p className='font_family_montserrat'>The plant is in the core mining area, surrounded by 25 mining leases with in radius of 20 kms .</p>
                             </div>
                         </div>
                   

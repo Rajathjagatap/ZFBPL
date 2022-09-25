@@ -1,0 +1,12 @@
+.container-class{
+    padding-right:10vw;
+    padding-left:10vw;
+    padding-top:2vh;
+}
+
+@media (max-width:414px){
+    .container-class{
+        padding-right:5vw;
+        padding-left:5vw;
+    }
+}

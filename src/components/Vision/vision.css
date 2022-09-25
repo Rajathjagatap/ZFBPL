@@ -25,3 +25,22 @@
 .text-align{
     text-align: justify;
 }
+
+.container-class{
+    padding-right:10vw;
+    padding-left:10vw;
+}
+
+.list-padding{
+    padding-left: 3rem;
+}
+
+@media (max-width:414px){
+    .container-class{
+        padding-right:5vw;
+        padding-left:5vw;
+    }
+    .list-padding{
+        padding-left: 1rem;
+    }
+}

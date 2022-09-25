@@ -14,7 +14,7 @@ class Home extends React.Component {
       <div>
         <Header />
         <div className="col-md-12 row" style={{marginTop:'2vh'}}>
-          <div className="col-md-8">
+          <div className="col-md-8 col-sm-12">
             <Carousel showThumbs={false}  infiniteLoop={true} autoPlay={true}>
               <div style={{height:'100%'}}>
                 <img src={require("../../assets/cover-pic.png")} style={{height:'100%'}} alt="cover-pic"/>
@@ -34,10 +34,11 @@ class Home extends React.Component {
               </div>
             </Carousel>
           </div>
-          <div className="col-md-4 font_family_montserrat">
-            <p style={{textAlign:'justify',padding:'20px',}}>Zest Ferro Beneficiation Private Limited inception as a Beneficiation process plant Trading and Transportation . Zest has grown into one of the most consistent and prominent players in the Mining Industry. Over the last 12 years, the company has focused on business diversification and expansion which has significantly boosted its performance over the last 12 years .</p>
+          <div className="col-md-4 col-sm-12 font_family_montserrat">
+            <p style={{textAlign:'justify',padding:'20px',}}>We <span className="text_orange font_family_montserrat_bold">Zest Ferro Benefication Pvt Ltd.</span>, are one of the most reliable and prominent organization in the Mining industry.  The company has focused on business diversification and expansion over the last couple of years, which has significantly boosted its performance. We follow a zeal to understand buyer’s needs and fulfil their requirements. </p>
 
-            <p style={{textAlign:'justify',padding:'20px',paddingTop:'0px'}}>With its vast experience over the years and thorough knowledge of every operative nuance of the various industries, the Zest has not only managed to carve a niche for itself, but has also emerged as a brand name that is synonymous with quality in the sector . The Zest is managed by an inspiring leadership that is young, focused and is driven by the ambition to deliver the very best. The management team comprises a mixed pool of industry professionals from various fields such as Mining & Geology, Finance & Strategy , Mechanical and Human Resources.</p>
+            <p style={{textAlign:'justify',padding:'20px',paddingTop:'0px'}}>This endeavors to be a cost and quality front runner by achieving total integration in its operations across the Beneficiation and Trading. It maneuvers an infrastructure intensive network and integrated quality management processes aimed at satisfactorily meeting customer’s requirements.
+            Apart from attaining superior technological and quality-specific edge over its competitors, we also pay close attention to the enhancement of safety, health and environmental protection. We strive to be available to our clients round the clock and ensure authentic consignment is delivered to them on time.</p>
           </div>
         </div>
         <Footer />
