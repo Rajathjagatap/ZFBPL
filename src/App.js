@@ -10,6 +10,7 @@ import Layout from './components/Layout';
 import Vision from './components/Vision';
 import Services from './components/Services';
 import ContactUs from './components/ContactUs';
+import CSR from './components/CSR';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="aboutus" element={<AboutUs />} />
           <Route path="vision" element={<Vision/>} />
+          <Route path="csr" element={<CSR/>} />
           <Route path="services" element={<Services/>} />
           <Route path="contactus" element={<ContactUs/>} />
         </Route>

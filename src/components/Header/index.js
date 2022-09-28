@@ -20,7 +20,7 @@ class Header extends React.Component{
                   alt=""
                   className="d-inline-block align-text-top logo"
                 /></a>
-                <p className='font_family_montserrat_bold font-size' style={{alignSelf:'center'}}>ZEST FERRO BENEFICATION PRIVATE LIMITED</p>
+                <p className='font_family_montserrat_bold font-size txt' style={{alignSelf:'center'}}>ZEST FERRO BENEFICATION PRIVATE LIMITED</p>
               </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,23 +28,23 @@ class Header extends React.Component{
               <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto" style={{marginRight:'10px'}}>
                   <li class="nav-item" id="home">
-                    <a class="nav-link" href="/">HOME
+                    <a class="nav-link txt" href="/">HOME
                     </a>
                   </li>
-                  <li class="nav-item" id="about">
-                    <a class="nav-link"  href="/aboutus">ABOUT US</a>
+                  <li class="nav-item" id="about" >
+                    <a class="nav-link txt"  href="/aboutus" >ABOUT US</a>
                   </li>
                   <li class="nav-item" id="vision">
-                    <a class="nav-link"  href="/vision">VISION</a>
+                    <a class="nav-link txt"  href="/vision" >VISION</a>
                   </li>
                   <li class="nav-item" id="csr">
-                    <a class="nav-link" href="/services">CSR</a>
+                    <a class="nav-link txt" href="/csr" >CSR</a>
                   </li>
                   <li class="nav-item" id="services">
-                    <a class="nav-link" href="/services">SERVICES</a>
+                    <a class="nav-link txt" href="/services" >SERVICES</a>
                   </li>
                   <li class="nav-item" id="contact">
-                    <a class="nav-link"  href="/contactus">CONTACT US</a>
+                    <a class="nav-link txt"  href="/contactus" >CONTACT US</a>
                   </li>
                 </ul>
           

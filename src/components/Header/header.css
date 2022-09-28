@@ -1,5 +1,5 @@
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: red !important;
+    color: black !important;
 }
 
 .nav-link{
@@ -25,6 +25,11 @@
 
 .nav-bg{
     z-index:1;
+    background-color: #89a44b;
+}
+
+.txt{
+    color: #fff
 }
 
 
