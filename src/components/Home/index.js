@@ -21,7 +21,7 @@ class Home extends React.Component {
                 {/* <p className="legend">Legend 1</p> */}
               </div>
               <div style={{height:'100%'}}>
-                <img src={require("../../assets/cover-pic2.png")} style={{height:'100%'}} alt="cover-pic2"/>
+                <img src={require("../../assets/cover-pic2.jpeg")} style={{height:'100%'}} alt="cover-pic2"/>
                 {/* <p className="legend">Legend 2</p> */}
               </div>
               <div style={{height:'100%'}}>

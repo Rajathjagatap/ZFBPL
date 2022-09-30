@@ -1,5 +1,5 @@
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: black !important;
+    color: #880015 !important;
 }
 
 .nav-link{
@@ -7,13 +7,13 @@
 }
 
 
-/* .nav-bg{
+.nav-bg{
     background:transparent !important;
 }
 
 .nav-bg::before{
     content:'';
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url('require(../../../../assets/header-bg.jpeg');
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url('require(../../../../assets/wood-bg.png');
     position: absolute;
     top:0px;
     left: 0px;
@@ -21,15 +21,15 @@
     height:100%;
     z-index:-1;
     opacity: 0.8;
-} */
+} 
 
-.nav-bg{
+/* .nav-bg{
     z-index:1;
     background-color: #89a44b;
-}
+} */
 
 .txt{
-    color: #fff
+    color: black
 }
 
 
@@ -53,6 +53,25 @@
     flex-wrap: wrap;
 }
 
+.header-font{
+    font-family:'Abyssinica SIL';
+}
+
+.header-font-size{
+    font-size: 26px;
+    font-weight: 800
+}
+
+.leaves{
+    background-image: url('require(../../../../assets/leaves.png');
+    background-size:contain;
+    height: 30px;
+}
+
+.header-list{
+    margin-top:10vh;
+}
+
 @media (max-width:414px){
     .navbar{
         margin: 0px;
@@ -73,6 +92,16 @@
         display: flex;
         flex-wrap: nowrap;
         padding-top: 10px;
+    }
+    .header-font-size{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .leaves{
+        height: 10px;
+    }
+    .header-list{
+        margin-top: 2vh;
     }
 }
 

@@ -30,7 +30,7 @@ class Services extends React.Component{
                         <p className='font_family_montserrat'  style={{textAlign:'justify'}}>A process adapted to upgrade ore is called Beneficiation. Manganese Ore is upgraded to higher manganese content through concentration. Manganese ore is beneficiated to all around the world to meet the quality requirement of large steel industries. We have sufficient import of required raw material source from 5 major manganese ore mines which are located in karnataka and they are very much closer to plant.</p>
                     </div>
                     <div className='col-md-3'>
-                        <img src={require("../../assets/cover-pic2.png")} alt="" style={{width:'100%',height:'200px'}}/>
+                        <img src={require("../../assets/cover-pic2.jpeg")} alt="" style={{width:'100%',height:'200px'}}/>
                     </div>
                 </div>
 

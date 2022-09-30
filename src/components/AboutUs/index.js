@@ -68,7 +68,7 @@ class AboutUs extends React.Component{
                                 <ul style={{paddingTop:'3vh',paddingLeft:'10px',marginRight:'20px'}}>
                                 <li style={{fontSize:'16px',textAlign:'justify'}} className="font_family_montserrat"> For a period of 4 years up to 2008-09, firm was active in MineralTrading.</li>
                                 <li style={{fontSize:'16px', textAlign:'justify'}} className="font_family_montserrat"> Firm started their own stock yard in 2009-10 </li>
-                                <li style={{fontSize:'16px', textAlign:'justify'}} className="font_family_montserrat"> For a period of 2 years up to 20010-011, firm was active in Dry mineral process (Crushing Activity)  </li>
+                                <li style={{fontSize:'16px', textAlign:'justify'}} className="font_family_montserrat"> For a period of 2 years up to 2010-2011, firm was active in Dry mineral process (Crushing Activity)  </li>
                                 <li style={{fontSize:'16px'}} className="font_family_montserrat"> Started own project of Beneficiation plant in the year 2011-12 </li>
                                 <li style={{fontSize:'16px', textAlign:'justify'}} className="font_family_montserrat"> Started an aggregate stone quarry with complete crushing set up , supplying
                                     aggregate material of 40 mm 20 mm 12mm and dust to various client. 2014-15. </li>

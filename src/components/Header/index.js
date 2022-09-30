@@ -3,53 +3,50 @@ import './header.css';
 
 class Header extends React.Component{
 
-  // changeClassName=(menu)=>{
-  //   console.log("menu", menu);
-  //   let doc = document.getElementsByClassName('nav-item');
-  //   console.log("class", doc);
-  //   // doc.classList.add('active');
-  // }
+  
     render(){
         return(
-
-          <nav class="navbar navbar-expand-lg navbar-light nav-bg py-lg-0" style={{borderBottom: '0.5px solid', borderBottomColor: '#D3D3D3'}}>
-  
+          <div>
+            <div className='leaves' style={{width:'100%'}}></div>
+          <nav class="navbar navbar-expand-lg navbar-light nav-bg py-lg-0"  style={{borderBottom: '0.5px solid', borderBottomColor: '#D3D3D3'}}>
               <div className='navbar-logo-name'>
               <a class="navbar-brand" href="/"> <img
                   src={require("../../assets/logo.png")}
                   alt=""
                   className="d-inline-block align-text-top logo"
                 /></a>
-                <p className='font_family_montserrat_bold font-size txt' style={{alignSelf:'center'}}>ZEST FERRO BENEFICATION PRIVATE LIMITED</p>
+                <p className='header-font header-font-size' style={{alignSelf:'center',color:'#880015'}}>ZEST FERRO BENEFICATION PRIVATE LIMITED , SANDUR<br/><span style={{fontSize:'17px',float:'right',fontFamily:'Charmonman', color:'black'}}>Never Ending Zeal</span></p>
+                {/* <p  style={{alignSelf:'center', fontFamily:'Dancing Script'}}>Never Ending Zeal</p> */}
               </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
+              <div class="collapse navbar-collapse header-list" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto" style={{marginRight:'10px'}}>
                   <li class="nav-item" id="home">
-                    <a class="nav-link txt" href="/">HOME
+                    <a class="nav-link header-font txt" href="/">HOME
                     </a>
                   </li>
                   <li class="nav-item" id="about" >
-                    <a class="nav-link txt"  href="/aboutus" >ABOUT US</a>
+                    <a class="nav-link txt header-font"  href="/aboutus" >ABOUT US</a>
                   </li>
                   <li class="nav-item" id="vision">
-                    <a class="nav-link txt"  href="/vision" >VISION</a>
+                    <a class="nav-link txt header-font"  href="/vision" >VISION</a>
                   </li>
                   <li class="nav-item" id="csr">
-                    <a class="nav-link txt" href="/csr" >CSR</a>
+                    <a class="nav-link txt header-font" href="/csr" >CSR</a>
                   </li>
                   <li class="nav-item" id="services">
-                    <a class="nav-link txt" href="/services" >SERVICES</a>
+                    <a class="nav-link txt header-font" href="/services" >SERVICES</a>
                   </li>
                   <li class="nav-item" id="contact">
-                    <a class="nav-link txt"  href="/contactus" >CONTACT US</a>
+                    <a class="nav-link txt header-font"  href="/contactus" >CONTACT US</a>
                   </li>
                 </ul>
           
             </div>
           </nav>
+          </div>
 
         // <nav class="navbar navbar-expand-lg navbar-light bg-light py-lg-0">
           
