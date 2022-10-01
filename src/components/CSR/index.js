@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
+import './csr.css';
 
 class CSR extends React.Component{
     render(){
@@ -15,7 +16,7 @@ class CSR extends React.Component{
                     <div className='col-md-6 address'>
                         <img src={require("../../assets/help.jpg")} style={{height:'100%', width:'100%'}} alt="cover-pic"/>
                     </div>
-                    <div className='col-md-4 col-sm-12' style={{textAlign:'justify',padding:'20px'}}>
+                    <div className='col-md-4 col-sm-12 csr-content'>
                         <p className='font_family_montserrat' style={{marginTop:'5vh'}}>Corporate Social Responsibility is a business philosophy that focuses on the importance of keeping the best interests of the wider society in mind.  Our recent schemes for Corporate Social Responsibility schemes and programmes are, education, health and area development. We consider our employees and their families to achieve a common goal of determined towards a better future. The Company is guided by its values which drive it to conduct its business in a responsible manner. It firmly believes that Company’s growth goes along with the growth of society. </p>
                         
                     </div>

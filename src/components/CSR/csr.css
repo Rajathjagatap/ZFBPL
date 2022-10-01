@@ -1,0 +1,23 @@
+.address{
+    padding-left:13vw;
+    padding-top:0vh;
+    float:right;
+    margin-top:5vh;
+}
+
+.csr-content{
+    text-align:justify;
+    padding:20px;
+}
+
+@media (max-width:414px){
+    .address{
+        padding-left:5vw;
+        padding-right:5vw;
+    }
+    .csr-content{
+        text-align:justify;
+        padding-right:8vw;
+        padding-left:8vw;
+    }
+}

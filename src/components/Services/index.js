@@ -65,8 +65,8 @@ class Services extends React.Component{
                 <div className='col-md-12 row container-class' style={{paddingTop:'5vh', marginBottom:'20px'}}>
                     <div className='col-md-9'>
                         <p className='font_family_montserrat_bold' style={{fontSize:'20px'}}>Trading of Iron ore scrap Domestic and Import of scrap</p>
-                        <p className='font_family_montserrat'  style={{textAlign:'justify'}}>A process adapt to up grade ore is called Beneficiation. Iron Ore is up graded to higher iron content through concentration. Iron ore is beneficiated to all around the world to meet the quality requirement of large steel industries.
-                        A process adapt to up grade ore is called Beneficiation. Iron Ore is up graded to higher iron content through concentration. Iron ore is beneficiated to all around the world to meet the quality requirement of large steel industries.</p>
+                        <p className='font_family_montserrat'  style={{textAlign:'justify'}}>We have expertise in offering import and export of iron ore scrap for various benefits. Iron ore scrap has huge demands in the market. Ferrous scrap is normally recycled during steel making. It is used as primary raw material for the production of liquid steel in electric arc furnace and induction furnace.
+                        We have sufficient quantity of iron ore scrap varying in grades which is classified and best can be chosen based on requirements.</p>
                     </div>
                     <div className='col-md-3'>
                         <img src={require("../../assets/cover-pic6.jpeg")} alt="" style={{width:'100%',height:'200px'}}/>

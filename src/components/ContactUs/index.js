@@ -22,7 +22,7 @@ class ContactUs extends React.Component{
                         No 287, Ward No 23, Sy No: 114 , Py No: 121/1B , 18 Hullikunte Village , Nandhihalli Road , Sandur–583119, Bellari-Dist , Karnataka .
 </span></i></div>
 
-                        <div style={{marginTop:'10px'}}><i class="fa fa-envelope" style={{fontSize:'30px'}} aria-hidden="true"><span className="font_family_montserrat" style={{color:'black',fontSize:'16px',marginLeft:'10px'}}>zfbpl@gmail.com</span></i></div>
+                        <div style={{marginTop:'10px'}}><i class="fa fa-envelope" style={{fontSize:'30px'}} aria-hidden="true"><span className="font_family_montserrat" style={{color:'black',fontSize:'16px',marginLeft:'10px'}}>zestferrosdr@gmail.com</span></i></div>
 
                     </div>
                     <div className='col-md-6 email'>
