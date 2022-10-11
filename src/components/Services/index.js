@@ -15,7 +15,7 @@ class Services extends React.Component{
 
                 <div className='col-md-12 row container-class' style={{paddingTop:'5vh'}}>
                     <div className='col-md-9'>
-                        <p className='font_family_montserrat_bold' style={{fontSize:'20px'}}>Iron Ore Benefication</p>
+                        <p className='font_family_montserrat_bold' style={{fontSize:'20px'}}>Iron Ore Beneficiation</p>
                         <p className='font_family_montserrat' style={{textAlign:'justify'}}>A process adapted to upgrade ore is called Beneficiation. Iron Ore is upgraded to higher iron content through concentration. Iron ore is beneficiated to all around the world to meet the quality requirement of large steel industries. 
                         Our beneficiation plant has a capacity of 100 Tons per hour by which we can easily achieve the demands of the customer. We have sufficient import of raw material sources from 60 active mines in Bellary district.</p>
                     </div>

@@ -8,14 +8,14 @@ class Header extends React.Component{
         return(
           <div>
             <div className='leaves' style={{width:'100%'}}></div>
-          <nav class="navbar navbar-expand-lg navbar-light nav-bg py-lg-0"  style={{borderBottom: '0.5px solid', borderBottomColor: '#D3D3D3'}}>
+          <nav class="navbar navbar-expand-lg navbar-light nav-bg py-lg-0"  style={{borderBottom: '0.5px solid', borderBottomColor: '#D3D3D3',flexWrap:'wrap'}}>
               <div className='navbar-logo-name'>
               <a class="navbar-brand" href="/"> <img
                   src={require("../../assets/logo.png")}
                   alt=""
                   className="d-inline-block align-text-top logo"
                 /></a>
-                <p className='header-font header-font-size' style={{alignSelf:'center',color:'#880015'}}>ZEST FERRO BENEFICATION PRIVATE LIMITED , SANDUR<br/><span style={{fontSize:'17px',float:'right',fontFamily:'Charmonman', color:'black'}}>Never Ending Zeal</span></p>
+                <p className='header-font header-font-size' style={{alignSelf:'center',color:'#880015',marginTop:'10px'}}>ZEST FERRO BENEFICATION PRIVATE LIMITED , SANDUR <br/><p className="header-font" style={{fontSize:'18px'}}>Iron & Manganese Beneficiation Plant<span style={{fontSize:'17px',float:'right',fontFamily:'Charmonman', color:'black',marginTop:'4px'}}>Never Ending Zeal</span></p></p>
                 {/* <p  style={{alignSelf:'center', fontFamily:'Dancing Script'}}>Never Ending Zeal</p> */}
               </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
