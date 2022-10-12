@@ -15,7 +15,7 @@ class Header extends React.Component{
                   alt=""
                   className="d-inline-block align-text-top logo"
                 /></a>
-                <p className='header-font header-font-size' style={{alignSelf:'center',color:'#880015',marginTop:'10px'}}>ZEST FERRO BENEFICATION PRIVATE LIMITED , SANDUR <br/><p className="header-font" style={{fontSize:'18px'}}>Iron & Manganese Beneficiation Plant<span style={{fontSize:'17px',float:'right',fontFamily:'Charmonman', color:'black',marginTop:'4px'}}>Never Ending Zeal</span></p></p>
+                <p className='header-font header-font-size' style={{alignSelf:'center',color:'#880015',marginTop:'10px'}}>ZEST FERRO BENEFICATION PRIVATE LIMITED , SANDUR <br/><p className="header-font" style={{fontSize:'18px'}}>Iron & Manganese Benefication Plant<span style={{fontSize:'17px',float:'right',fontFamily:'Charmonman', color:'black',marginTop:'4px'}}>Never Ending Zeal</span></p></p>
                 {/* <p  style={{alignSelf:'center', fontFamily:'Dancing Script'}}>Never Ending Zeal</p> */}
               </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
